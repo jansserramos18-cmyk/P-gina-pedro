@@ -1,0 +1,152 @@
+body {
+    background-color: #111827;
+    font-family: Arial, sans-serif;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #374151;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #9ca3af;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+#primerasection {
+    background-color: #1f2937;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #374151;
+}
+
+h1 {
+    text-align: center;
+    color: #f9fafb;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+#primerasection > p:first-of-type {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 18px;
+}
+
+h2, h3 {
+    color: #f9fafb;
+    margin-top: 30px;
+}
+
+h2 {
+    border-bottom: 1px solid #374151;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 17px;
+    color: #d1d5db;
+}
+
+#texto {
+    background-color: #111827;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #3b82f6;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+#peliculas {
+    text-align: center;
+}
+
+#peliculas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#peliculas li {
+    background-color: #374151;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #f9fafb;
+    border: 1px solid #4b5563;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#peliculas li img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#sobreelautor {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #1e1b4b;
+    border-radius: 12px;
+    border: 1px solid #312e81;
+}
+
+#sobreelautor h2 {
+    margin-top: 0;
+    color: #c7d2fe;
+    border-bottom-color: #3730a3;
+}
+
+#sobreelautor p {
+    color: #a5b4fc;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #030712;
+    margin-top: 60px;
+    border-top: 1px solid #1f2937;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #6b7280;
+}
