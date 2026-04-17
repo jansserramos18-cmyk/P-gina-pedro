@@ -150,3 +150,87 @@ footer p {
     margin: 10px 0;
     color: #6b7280;
 }
+
+#formulario {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #1f2937;
+    border-radius: 12px;
+    border: 1px solid #374151;
+}
+
+#formulario h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #60a5fa;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+#formulario > p {
+    color: #9ca3af;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 24px;
+}
+
+.grupocampo {
+    margin-bottom: 20px;
+}
+
+.grupocampo label {
+    display: block;
+    margin-bottom: 6px;
+    color: #d1d5db;
+    font-weight: bold;
+}
+
+.grupocampo input[type="text"],
+.grupocampo input[type="email"],
+.grupocampo select,
+.grupocampo textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #111827;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.grupocampo input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.mensajeerror {
+    color: #f87171;
+    font-size: 14px;
+}
+
+#botonenviar, #botonnuevo {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#botonenviar:hover, #botonnuevo:hover {
+    background-color: #2563eb;
+}
+
+#mensajeexito {
+    text-align: center;
+    padding: 30px;
+}
+
+#mensajeexito h3 {
+    color: #34d399;
+    font-size: 24px;
+}

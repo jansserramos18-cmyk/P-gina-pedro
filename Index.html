@@ -14,10 +14,11 @@
                     <li><a href="#sobreelautor">Sobre el autor</a></li>
                     <li><a href="#biografia">Ir a la biografía</a></li>
                     <li><a href="#peliculas">Ir a las películas</a></li>
-
+                    <li><a href="#formulario">Fan Zone</a></li>
                 </ul>
             </nav>
         </header>
+
         <section id="primerasection">
             <h1>Conoces a Robert Downey Jr?</h1>
             <p>El actor que interpretó a Iron Man</p>
@@ -76,6 +77,67 @@
             </section>
         </section>
 
+        <section id="formulario">
+            <h2>¡Deja tu opinión!</h2>
+            <p>¿Eres fan de Robert Downey Jr.? Cuéntanos cuál es tu película favorita y comparte tu mensaje.</p>
+
+            <form id="formulariofan">
+                <div class="grupocampo">
+                    <label for="nombre">Tu nombre *</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: María García">
+                    <span class="mensajeerror" id="errornombre"></span>
+                </div>
+
+                <div class="grupocampo">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com">
+                    <span class="mensajeerror" id="erroremail"></span>
+                </div>
+
+                <div class="grupocampo">
+                    <label for="pelicula">Tu película favorita de RDJ *</label>
+                    <select id="pelicula" name="pelicula">
+                        <option value="">— Selecciona una película —</option>
+                        <option value="ironman">Iron Man (2008)</option>
+                        <option value="ironman2">Iron Man 2 (2010)</option>
+                        <option value="ironman3">Iron Man 3 (2013)</option>
+                        <option value="infinitywar">Avengers: Infinity War (2018)</option>
+                        <option value="endgame">Avengers: Endgame (2019)</option>
+                        <option value="sherlock">Sherlock Holmes (2009)</option>
+                        <option value="chaplin">Chaplin (1992)</option>
+                        <option value="otra">Otra película</option>
+                    </select>
+                    <span class="mensajeerror" id="errorpelicula"></span>
+                </div>
+
+                <div class="grupocampo">
+                    <label for="mensaje">Tu mensaje o comentario *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí lo que piensas sobre Robert Downey Jr..."></textarea>
+                    <span class="mensajeerror" id="errormensaje"></span>
+                </div>
+
+                <div class="grupocampo">
+                    <label>
+                        <input type="checkbox" id="aceptar" name="aceptar">
+                        Acepto que mi comentario sea publicado en esta revista.
+                    </label>
+                    <span class="mensajeerror" id="erroraceptar"></span>
+                </div>
+
+                <button type="submit" id="botonenviar">
+                    <span class="textoboton">Enviar comentario</span>
+                    <span class="cargando" style="display:none;">Enviando...</span>
+                </button>
+            </form>
+
+            <div id="mensajeexito" style="display:none;">
+                <h3>¡Gracias, <span id="exitonombre"></span>!</h3>
+                <p>Tu comentario sobre <strong><span id="exitopelicula"></span></strong> ha sido registrado.</p>
+                <p>Te contactaremos pronto a <span id="exitoemail"></span>.</p>
+                <button id="botonnuevo">Enviar otro comentario</button>
+            </div>
+        </section>
+
         <section id="sobreelautor">
             <h2>Sobre el autor</h2>
             <p>El autor de esta revista es Jansser Ramos #28 de 4to A de informática.</p> <br>
@@ -89,4 +151,6 @@
         <p>Gracias por leer mi revista</p>
         <p>&copy; Todos los derechos reservados a Jansser Ramos</p>
     </footer>
+
+    <script src="app.js"></script>
 </html>
